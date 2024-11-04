@@ -1,0 +1,12 @@
+header,
+footer {
+    padding: 1em;
+    color: white;
+    background-color: aquamarine;
+    clear: left;
+    text-align: center;
+}
+
+.wrapper{
+    
+}

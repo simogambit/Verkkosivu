@@ -1,0 +1,14 @@
+body {
+    color:honeydew;
+    background-color: darkolivegreen;
+    background-image: url(../kuvat/ilky-way-starry-sky-night-sky-star-956981.jpeg); ;
+}
+p { font-size: 20px; }
+
+
+
+
+
+.btn { background-color: rgb(10, 153, 255); }
+#nappi { font-size: 48px;
+background-color: chocolate; }
