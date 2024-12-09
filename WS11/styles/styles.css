@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.main-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+/* Box with Shadow */
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 20px;
+  box-shadow: 50px 50px 20px rgba(47, 164, 27, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.shadow-text {
+  font-size: 2em;
+  color: darkblue;
+  text-shadow: 1px 1px 2px rgba(33, 154, 61, 0.3);
+}
+
+.background {
+  width: 75%;
+  height: 600px;
+  background-image: url("./kuvat/taustakuva.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(8, 1, 26);
+}
+
+.task {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  user-select: none;
+}
+
+.task p {
+  margin: 10px 0;
+}
+
+.task p strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+/* lisää tänne tehtävä 4 button muotoilut*/
+
+.hover-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background:#135b0a ;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, background-size 0.3s ease;
+  background-size: 100% 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.hover-button:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-size: 120% 120%;
+}
